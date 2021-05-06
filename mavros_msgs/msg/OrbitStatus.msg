@@ -9,3 +9,4 @@ float64 x        # X coordinate of center point. Coordinate system depends on fr
 float64 y        # Y coordinate of center point. Coordinate system depends on frame field: local = y position in meters * 1e4, global = latitude in degrees * 1e7.
 float32 z        # Altitude of center point. Coordinate system depends on frame field.
 uint8 state # See enum ORBIT_EXECUTION_STATE.
+float32 progress # Progress of orbit between STARTED-FINISHED states. Meaningful only when it is finite.

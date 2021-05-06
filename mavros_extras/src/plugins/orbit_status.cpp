@@ -39,6 +39,7 @@ private:
 		ros_msg->y = mav_msg.y;
 		ros_msg->z = mav_msg.z;
 		ros_msg->state = mav_msg.state;
+		ros_msg->progress = mav_msg.progress;
 		orbit_execution_status.publish(ros_msg);
 	}
 };
