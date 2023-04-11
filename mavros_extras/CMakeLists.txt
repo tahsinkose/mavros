@@ -15,6 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
   tf2_eigen
   urdf
   visualization_msgs
+  rviz_visual_tools
 )
 
 ## System dependencies are found with CMake's conventions
