@@ -60,6 +60,8 @@ catkin_package(
 ## Build ##
 ###########
 
+set(CMAKE_CXX_STANDARD 17)
+
 include_directories(
   ${catkin_INCLUDE_DIRS}
   ${mavlink_INCLUDE_DIRS}
